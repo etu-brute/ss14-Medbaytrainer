@@ -1,0 +1,175 @@
+
+# patient NPCs
+
+- type: entity
+  id: MobMedTrainingPatientBase
+  abstract: true
+  parent: MobHumanSyndicateAgentBase
+  name: patient
+  description: A person in need of medical attention.
+  components:
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        100: Critical
+        200: Dead
+    - type: HTN
+      rootTask:
+        task: MedPatientIdle
+    - type: NpcFactionMember
+      factions:
+        - NanoTrasen
+
+- type: entity
+  id: MobMedTrainingPatientHuman
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Human
+
+- type: entity
+  id: MobMedTrainingPatientReptilian
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Reptilian
+  components:
+    - type: HumanoidProfile
+      species: Reptilian
+
+- type: entity
+  id: MobMedTrainingPatientMoth
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Moth
+  components:
+    - type: HumanoidProfile
+      species: Moth
+
+- type: entity
+  id: MobMedTrainingPatientArachnid
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Arachnid
+  components:
+    - type: HumanoidProfile
+      species: Arachnid
+
+- type: entity
+  id: MobMedTrainingPatientVox
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Vox
+  components:
+    - type: HumanoidProfile
+      species: Vox
+
+- type: entity
+  id: MobMedTrainingPatientSlime
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: SlimePerson
+  components:
+    - type: HumanoidProfile
+      species: SlimePerson
+
+- type: entity
+  id: MobMedTrainingPatientVulpkanin
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Vulpkanin
+  components:
+    - type: HumanoidProfile
+      species: Vulpkanin
+
+- type: entity
+  id: MobMedTrainingPatientDiona
+  parent: MobMedTrainingPatientBase
+  name: patient
+  suffix: Diona
+  components:
+    - type: HumanoidProfile
+      species: Diona
+
+# Paramedic NPC
+
+- type: entity
+  id: MobMedTrainingParamedic
+  parent: MobHumanSyndicateAgentBase
+  name: paramedic
+  description: An emergency medical technician delivering a critical patient.
+  components:
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        200: Dead
+    - type: HTN
+      rootTask:
+        task: MedParamedicDeliver
+    - type: NpcFactionMember
+      factions:
+        - NanoTrasen
+    - type: MedTrainingParamedic
+
+# Reset button
+
+- type: entity
+  id: MedTrainingReadyButton
+  name: next patient button
+  description: Press this button when you are ready to receive the next training patient.
+  components:
+    - type: Transform
+    - type: WallMount
+      arc: 360
+    - type: Physics
+      canCollide: false
+    - type: Clickable
+    - type: Sprite
+      sprite: Structures/Wallmounts/switch.rsi
+      state: on
+    - type: InteractionOutline
+    - type: MedTrainingButton
+
+# Scenario coordinator
+
+- type: entity
+  id: MedTrainingScenarioCoordinator
+  name: med training scenario
+  suffix: DoNotDelete
+  components:
+    - type: Transform
+    - type: MedTrainingScenario
+
+# Stasis bed unique
+
+- type: entity
+  id: MedTrainingStasisBed
+  parent: StasisBed
+  name: stasis bed
+  suffix: MedTraining
+  components:
+    - type: MedTrainingStasisBed
+
+# Spawn point markers
+
+- type: entity
+  id: MedTrainingLobbySpawn
+  name: lobby spawn
+  suffix: DoNotDelete
+  components:
+    - type: Transform
+    - type: MedTrainingLobbySpawn
+
+- type: entity
+  id: MedTrainingParamedicSpawn
+  name: paramedic spawn
+  suffix: DoNotDelete
+  components:
+    - type: Transform
+    - type: MedTrainingParamedicSpawn
+
+- type: entity
+  id: MedTrainingReceptionMarker
+  name: reception marker
+  suffix: DoNotDelete
+  components:
+    - type: Transform
+    - type: MedTrainingReceptionMarker

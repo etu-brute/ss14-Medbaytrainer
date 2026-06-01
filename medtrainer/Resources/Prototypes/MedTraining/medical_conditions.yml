@@ -1,0 +1,95 @@
+- type: medCondition
+  id: ConditionLacerations
+  name: Lacerations
+  isCritical: false
+  damage:
+    Slash: 40
+    Bloodloss: 25
+
+- type: medCondition
+  id: ConditionFirstDegreeBurns
+  name: First-degree burns
+  isCritical: false
+  damage:
+    Heat: 40
+    Caustic: 10
+
+- type: medCondition
+  id: ConditionFracture
+  name: Fracture
+  isCritical: false
+  damage:
+    Blunt: 50
+    Piercing: 10
+
+- type: medCondition
+  id: ConditionToxinExposure
+  name: toxin exposure
+  isCritical: false
+  damage:
+    Poison: 40
+    Cellular: 15
+
+- type: medCondition
+  id: ConditionBrokenRibs
+  name: Broken ribs
+  isCritical: false
+  damage:
+    Blunt: 45
+    Slash: 10
+    Asphyxiation: 10
+
+- type: medCondition
+  id: ConditionRadiationSickness
+  name: Radiation sickness
+  isCritical: false
+  damage:
+    Radiation: 35
+    Cellular: 20
+
+- type: medCondition
+  id: ConditionCardiacArrest
+  name: Death
+  isCritical: true
+  damage:
+    Blunt: 55
+    Bloodloss: 30
+    Asphyxiation: 20
+
+- type: medCondition
+  id: ConditionSevereBurns
+  name: Bad burns
+  isCritical: true
+  damage:
+    Heat: 60
+    Bloodloss: 30
+    Caustic: 20
+
+- type: medCondition
+  id: ConditionPenetratingThorax
+  name: Penetration
+  isCritical: true
+  damage:
+    Slash: 40
+    Piercing: 20
+    Bloodloss: 35
+    Asphyxiation: 15
+
+- type: medCondition
+  id: ConditionSeverePoison
+  name: Toxin poisoning bad
+  isCritical: true
+  damage:
+    Poison: 55
+    Cellular: 35
+    Asphyxiation: 20
+
+
+- type: medCondition
+  id: ConditionSevereRadiation
+  name: Acute radiation
+  isCritical: true
+  damage:
+    Radiation: 55
+    Cellular: 40
+    Bloodloss: 15

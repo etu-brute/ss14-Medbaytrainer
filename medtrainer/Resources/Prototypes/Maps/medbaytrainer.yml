@@ -1,0 +1,19 @@
+- type: gameMap
+  id: medbaytrainer
+  mapName: 'Medicine Training'
+  mapPath: /Maps/medbaytrainer.yaml
+  minPlayers: 0
+  maxPlayers: 5
+  fallback: true
+  stations:
+    medbaytrainer:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Medicine Trainer {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'MED'
+        - type: StationJobs
+          availableJobs: 
+            MedicalDoctor: [ -1, -1 ]

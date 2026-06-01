@@ -1,0 +1,720 @@
+- type: entity
+  parent: Jug
+  id: JugMedArithrazine
+  name: 'jug (arithrazine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Arithrazine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedBicaridine
+  name: 'jug (bicaridine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Bicaridine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDermaline
+  name: 'jug (dermaline)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Dermaline
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDexalin
+  name: 'jug (dexalin)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Dexalin
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDexalinPlus
+  name: 'jug (dexalin plus)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: DexalinPlus
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDylovene
+  name: 'jug (dylovene)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Dylovene
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedEpinephrine
+  name: 'jug (epinephrine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Epinephrine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedHaloperidol
+  name: 'jug (haloperidol)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Haloperidol
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedHeparin
+  name: 'jug (heparin)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Heparin
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedHyronalin
+  name: 'jug (hyronalin)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Hyronalin
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedInaprovaline
+  name: 'jug (inaprovaline)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Inaprovaline
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedKelotane
+  name: 'jug (kelotane)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Kelotane
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedLeporazine
+  name: 'jug (leporazine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Leporazine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedOmnizine
+  name: 'jug (omnizine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Omnizine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPotassiumIodide
+  name: 'jug (potassium iodide)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: PotassiumIodide
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPuncturase
+  name: 'jug (puncturase)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Puncturase
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedSaline
+  name: 'jug (saline)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Saline
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedSiderlac
+  name: 'jug (siderlac)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Siderlac
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedTranexamicAcid
+  name: 'jug (tranexamic acid)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: TranexamicAcid
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedTricordrazine
+  name: 'jug (tricordrazine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Tricordrazine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedCryptobiolin
+  name: 'jug (cryptobiolin)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Cryptobiolin
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDiphenhydramine
+  name: 'jug (diphenhydramine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Diphenhydramine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedEthylredoxrazine
+  name: 'jug (ethylredoxrazine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Ethylredoxrazine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedCryoxadone
+  name: 'jug (cryoxadone)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Cryoxadone
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDoxarubixadone
+  name: 'jug (doxarubixadone)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Doxarubixadone
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedIpecac
+  name: 'jug (ipecac)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Ipecac
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedBarozine
+  name: 'jug (barozine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Barozine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPhalanximine
+  name: 'jug (phalanximine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Phalanximine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPolypyryliumOligomers
+  name: 'jug (polypyrylium oligomers)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: PolypyryliumOligomers
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedAmbuzol
+  name: 'jug (ambuzol)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Ambuzol
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedAmbuzolPlus
+  name: 'jug (ambuzol plus)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: AmbuzolPlus
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedStellibinin
+  name: 'jug (stellibinin)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Stellibinin
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedSynaptizine
+  name: 'jug (synaptizine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Synaptizine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedLipozine
+  name: 'jug (lipozine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Lipozine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedUltravasculine
+  name: 'jug (ultravasculine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Ultravasculine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedOculine
+  name: 'jug (oculine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Oculine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedCognizine
+  name: 'jug (cognizine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Cognizine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedEthyloxyephedrine
+  name: 'jug (ethyloxyephedrine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Ethyloxyephedrine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedDiphenylmethylamine
+  name: 'jug (diphenylmethylamine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Diphenylmethylamine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedSigynate
+  name: 'jug (sigynate)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Sigynate
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedLacerinol
+  name: 'jug (lacerinol)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Lacerinol
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedBruizine
+  name: 'jug (bruizine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Bruizine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPyrazine
+  name: 'jug (pyrazine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Pyrazine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedInsuzine
+  name: 'jug (insuzine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Insuzine
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedOpporozidone
+  name: 'jug (opporozidone)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Opporozidone
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedArcryox
+  name: 'jug (arcryox)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Arcryox
+          Quantity: 240
+
+- type: entity
+  parent: Jug
+  id: JugMedPsicodine
+  name: 'jug (psicodine)'
+  components:
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 240
+        reagents:
+        - ReagentId: Psicodine
+          Quantity: 240
+
+- type: entity
+  id: MedTrainingChemDispenser
+  name: medical training dispenser
+  parent: ChemDispenserEmpty
+  suffix: MedTraining
+  components:
+  - type: Storage
+    maxItemSize: Large
+    grid:
+    - 0,0,31,15
+  - type: ReagentDispenser
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: JugMedArithrazine
+        - id: JugMedBicaridine
+        - id: JugMedDermaline
+        - id: JugMedDexalin
+        - id: JugMedDexalinPlus
+        - id: JugMedDylovene
+        - id: JugMedEpinephrine
+        - id: JugMedHaloperidol
+        - id: JugMedHeparin
+        - id: JugMedHyronalin
+        - id: JugMedInaprovaline
+        - id: JugMedKelotane
+        - id: JugMedLeporazine
+        - id: JugMedOmnizine
+        - id: JugMedPotassiumIodide
+        - id: JugMedPuncturase
+        - id: JugMedSaline
+        - id: JugMedSiderlac
+        - id: JugMedTranexamicAcid
+        - id: JugMedTricordrazine
+        - id: JugMedCryptobiolin
+        - id: JugMedDiphenhydramine
+        - id: JugMedEthylredoxrazine
+        - id: JugMedCryoxadone
+        - id: JugMedDoxarubixadone
+        - id: JugMedIpecac
+        - id: JugMedBarozine
+        - id: JugMedPhalanximine
+        - id: JugMedPolypyryliumOligomers
+        - id: JugMedAmbuzol
+        - id: JugMedAmbuzolPlus
+        - id: JugMedStellibinin
+        - id: JugMedSynaptizine
+        - id: JugMedLipozine
+        - id: JugMedUltravasculine
+        - id: JugMedOculine
+        - id: JugMedCognizine
+        - id: JugMedEthyloxyephedrine
+        - id: JugMedDiphenylmethylamine
+        - id: JugMedSigynate
+        - id: JugMedLacerinol
+        - id: JugMedBruizine
+        - id: JugMedPyrazine
+        - id: JugMedInsuzine
+        - id: JugMedOpporozidone
+        - id: JugMedArcryox
+        - id: JugMedPsicodine

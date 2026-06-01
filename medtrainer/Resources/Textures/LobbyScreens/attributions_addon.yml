@@ -1,0 +1,16 @@
+# Add these entries to your existing attributions.yml in Resources/Textures/LobbyScreens/
+
+- files: ["the_jug.webp"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Brutus"
+  source: "Brutus"
+
+- files: ["peepeepoopoo.webp"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Brutus"
+  source: "Brutus"
+
+- files: ["screenshot_medbay.webp"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Brutus"
+  source: "Brutus"

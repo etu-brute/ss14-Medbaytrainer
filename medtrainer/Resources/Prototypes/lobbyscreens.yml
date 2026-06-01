@@ -1,0 +1,15 @@
+- type: lobbyBackground
+  id: TheJug
+  background: /Textures/LobbyScreens/the_jug.webp
+  title: lobby-state-background-thejug-title
+  artist: lobby-state-background-thejug-artist
+- type: lobbyBackground
+  id: Informational
+  background: /Textures/LobbyScreens/informational.webp
+  title: lobby-state-background-informational-title
+  artist: lobby-state-background-informational-artist
+- type: lobbyBackground
+  id: ThisIsFine
+  background: /Textures/LobbyScreens/this_is_fine.webp
+  title: lobby-state-background-thisisfine-title
+  artist: lobby-state-background-thisisfine-artist

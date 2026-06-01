@@ -1,0 +1,11 @@
+[game]
+hostname = "Medicine Training Practice"
+lobbyenabled = true
+map = "medbaytrainer"
+mapforced = true
+
+[net]
+bindto = "0.0.0.0"
+
+[log]
+enabled = true

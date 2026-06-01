@@ -1,0 +1,40 @@
+# HTN Task: MedPatientWalkIn
+- type: htnCompound
+  id: MedPatientWalkIn
+  branches:
+    - tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:MoveToOperator
+            targetKey: MedPatientTargetCoords
+            rangeKey: MedPatientRange
+            pathfindInPlanning: true
+            removeKeyOnFinish: true
+        - !type:HTNPrimitiveTask
+          operator: !type:RandomOperator
+            targetKey: MedPatientWaitTime
+            minKey: MedPatientWaitMin
+            maxKey: MedPatientWaitMax
+        - !type:HTNPrimitiveTask
+          operator: !type:WaitOperator
+            key: MedPatientWaitTime
+
+# HTN Task: MedPatientIdle
+- type: htnCompound
+  id: MedPatientIdle
+  branches:
+    - tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:WaitOperator
+            key: MedPatientIdleTime
+
+# HTN Task: MedParamedicMove
+- type: htnCompound
+  id: MedParamedicMove
+  branches:
+    - tasks:
+        - !type:HTNPrimitiveTask
+          operator: !type:MoveToOperator
+            targetKey: ParamedicMoveTarget
+            rangeKey: ParamedicArrivalRange
+            pathfindInPlanning: true
+            removeKeyOnFinish: false
