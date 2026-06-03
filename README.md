@@ -1,4 +1,4 @@
-# THE JUGG - Vanilla Medicine Training for SS14
+# THE JUG - Vanilla Medicine Training for SS14
 This is a pet project that originally started as a personal method to practice my own medical skills in space station.
 This mod is made to allow users the ability to practice their medical skills offline in a way that is less stressful, and 
 without potentially ruining others' experiences. 
