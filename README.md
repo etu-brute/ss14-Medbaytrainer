@@ -12,8 +12,10 @@ This installer will download and build the latest ss14 server files. It will the
 put them into your server installation.
 
 
-_**I have noticed that sometimes it can look like it freezes. If this happens to you, press on the installer's black and white text
-and press any key. This usually catches up to the ongoing progress of the installation.**_
+_**THIS REQUIRES THE LATEST NET.SDK, AND MAY ASK YOU TO UPDATE IT IF IT NOTICES YOU DO NOT HAVE IT INSTALLED ALREADY**_
+
+_I have noticed that sometimes it can look like it freezes. If this happens to you, press on the installer's black and white text
+and press any key. This usually catches up to the ongoing progress of the installation._
 
 _For those that are more technically inclined and would like to manually install it in their own server fork:_
 1) Download and build the latest server fork for ss14 (located at: https://github.com/space-wizards/space-station-14 )
