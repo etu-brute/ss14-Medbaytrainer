@@ -12,7 +12,7 @@ This installer will download and build the latest ss14 server files. It will the
 put them into your server installation. 
 
 
-_**THIS REQUIRES THE LATEST .NET SDK and GIT, AND MAY ASK YOU TO UPDATE OR INSTALL THEM IF IT NOTICES YOU DO NOT HAVE IT INSTALLED ALREADY**_
+_**THIS REQUIRES THE LATEST .NET SDK and GIT, AND MAY ASK YOU TO UPDATE OR INSTALL THEM IF IT NOTICES YOU DO NOT HAVE THEM INSTALLED ALREADY**_
 
 _I have noticed that sometimes it can look like it freezes. If this happens to you, press on the installer's black and white text
 and press any key. This usually catches up to the ongoing progress of the installation._
