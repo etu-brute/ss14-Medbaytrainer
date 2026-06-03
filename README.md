@@ -27,7 +27,7 @@ server directory.
 
 ## How to use
 
-1) press the "Run Medical Trainer" .bat that the installer creates inside of the server file.
+1) run the "Run Medical Trainer" .bat that the installer creates inside of the server file.
 2) A client and server command prompt will open, and then the game screen will open as well.
 3) Once the game screen finishes loading and reaches the main menu, press on "direct connect".
 4) Upon spawning, there will be a green button with black and yellow caution tape around it. Press on this.
