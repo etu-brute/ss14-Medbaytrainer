@@ -9,10 +9,11 @@ Hopefully this mod can be as helpful to you as it was for me!
 1) <ins>Simply download the "Install med trainer" .bat file within this repository then run it inside any file you wish</ins>
 
 This installer will download and build the latest ss14 server files. It will then download the files from this git repository and 
-put them into your server installation.
+put them into your server installation. 
 
 
 _**THIS REQUIRES THE LATEST NET.SDK, AND MAY ASK YOU TO UPDATE IT IF IT NOTICES YOU DO NOT HAVE IT INSTALLED ALREADY**_
+Furthermore, this installer will also install GIT as well, in order to both make the installation much quicker and simpler.
 
 _I have noticed that sometimes it can look like it freezes. If this happens to you, press on the installer's black and white text
 and press any key. This usually catches up to the ongoing progress of the installation._
