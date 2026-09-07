@@ -14,8 +14,8 @@ put them into your server installation.
 
 _**THIS REQUIRES THE LATEST .NET SDK and GIT, AND MAY ASK YOU TO UPDATE OR INSTALL THEM IF IT NOTICES YOU DO NOT HAVE THEM INSTALLED ALREADY**_
 
-_I have noticed that sometimes the installer command prompt can look like it freezes. If this happens to you, press on the installer's black and white text
-and press any key. This usually catches up to the ongoing progress of the installation._
+_The installer command prompt can look like it freezes while downloading the necessary server kit to operate this mod. If this happens to you, press on the installer's black and white text
+and press any key. This usually catches up to the ongoing progress of the installation, if not it will eventually._
 
 _For those that are more technically inclined and would like to manually install it in their own server fork:_
 1) Download and build the latest server fork for ss14 (located at: https://github.com/space-wizards/space-station-14 )
